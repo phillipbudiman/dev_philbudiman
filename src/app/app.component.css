@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Lumen;
+    src: url(../assets/fonts/Lumen-Full.ttf);
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: row;
+    font-family: 'SF Pro', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    justify-content: flex-end;
+    align-items: center;
+    margin: .625rem;
+}
+
+#toolbar button {
+    font-family: 'SF Pro', 'Helvetica Neue', sans-serif;
+}
+
+#sig {
+    /* margin-right: auto; */
+    margin: .625rem auto .625rem .625rem;
+}
+
+svg {
+    width: 50%;
+    /* height: 400px; */
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: dash 4s linear forwards;
+    overflow: visible;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
