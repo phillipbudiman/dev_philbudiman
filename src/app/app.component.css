@@ -28,22 +28,3 @@
 #footer {
     font-family: 'SF Pro Ultralight', 'Helvetica Neue', sans-serif;
 }
-
-#svg_window {
-    align-self: center;
-}
-
-#svg_window svg {
-    width: 10rem;
-    /* height: 400px; */
-    stroke-dasharray: 1500;
-    stroke-dashoffset: 1500;
-    animation: dash 4s linear forwards;
-    overflow: visible;
-}
-
-@keyframes dash {
-    to {
-        stroke-dashoffset: 0;
-    }
-}
