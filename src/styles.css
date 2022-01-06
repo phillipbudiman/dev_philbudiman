@@ -1,8 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
 @font-face {
-    font-family: 'SF Pro';
+    font-family: 'SF Pro Light';
     src: url(assets/fonts/SF-Pro-Text-Light.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Ultralight';
+    src: url(assets/fonts/SF-Pro-Text-Ultralight.otf) format('truetype');
+}
+
+@font-face {
+    font-family: Lumen;
+    src: url(assets/fonts/Lumen-Full.ttf) format('truetype');
 }
 
 html,

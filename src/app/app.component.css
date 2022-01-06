@@ -1,29 +1,40 @@
-@font-face {
-    font-family: Lumen;
-    src: url(../assets/fonts/Lumen-Full.ttf);
+#page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    margin: 0;
 }
 
 #toolbar {
     display: flex;
     flex-direction: row;
-    font-family: 'SF Pro', 'Helvetica Neue', sans-serif;
+    font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
     justify-content: flex-end;
     align-items: center;
-    margin: .625rem;
+    margin: 1.25rem;
 }
 
 #toolbar button {
-    font-family: 'SF Pro', 'Helvetica Neue', sans-serif;
+    font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
 }
 
 #sig {
-    /* margin-right: auto; */
-    margin: .625rem auto .625rem .625rem;
+    margin-right: auto;
 }
 
-svg {
-    width: 50%;
+#footer {
+    font-family: 'SF Pro Ultralight', 'Helvetica Neue', sans-serif;
+}
+
+#svg_window {
+    align-self: center;
+}
+
+#svg_window svg {
+    width: 10rem;
     /* height: 400px; */
     stroke-dasharray: 1500;
     stroke-dashoffset: 1500;
