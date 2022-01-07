@@ -13,6 +13,7 @@
 #pic img {
     /* min-width: 0; */
     width: 20vw;
+    border-radius: 5px;
 }
 
 span {
