@@ -1,0 +1,35 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100em;
+}
+
+#pic {
+    margin: 35px;
+}
+
+#pic img {
+    /* min-width: 0; */
+    width: 20vw;
+}
+
+span {
+    font-family: 'SF Pro Medium', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+.text {
+    width: 50em;
+    font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    word-wrap: normal;
+}
