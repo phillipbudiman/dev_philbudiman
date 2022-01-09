@@ -63,6 +63,31 @@
     }
 }
 
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes slow-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slow-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @font-face {
     font-family: 'SF Pro Light';
     src: url(assets/fonts/SF-Pro-Text-Light.otf) format('opentype');
@@ -86,6 +111,11 @@
 .fade-in-bottom {
     -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.slow-fade-in {
+    -webkit-animation: slow-fade-in 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: slow-fade-in 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 html,
