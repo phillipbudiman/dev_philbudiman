@@ -1,7 +1,14 @@
-span {
+/* span {
     font-family: 'SF Pro Medium', 'Helvetica Neue', sans-serif;
+} */
+
+* {
+    font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
 }
 
-p {
-    font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
