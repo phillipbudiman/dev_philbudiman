@@ -1,1 +1,14 @@
-<p>projects works!</p>
+<div id="container">
+    <div class="fade-in" *ngFor="let proj of projects">
+        <mat-card>
+            <mat-card-title>{{proj.title}}</mat-card-title>
+            <mat-card-subtitle>{{proj.subtitle}}</mat-card-subtitle>
+            <mat-card-content>
+                <p>{{proj.description}}</p>
+            </mat-card-content>
+            <mat-card-actions>
+                <a style="color: black;" href="{{proj.link}}" target="_blank" rel="noopener noreferrer"><button mat-stroked-button>github</button></a>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>

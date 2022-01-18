@@ -1,0 +1,13 @@
+* {
+    font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+mat-card {
+    min-width: 25rem;
+    max-width: 35rem;
+    margin: 15px 35px;
+}
