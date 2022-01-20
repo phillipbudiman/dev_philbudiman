@@ -1,9 +1,19 @@
 <div id="toolbar">
     <button id="sig" mat-flat-button routerLink='home'>phil</button>
-    <button mat-button routerLink='about'>about</button>
-    <button mat-button routerLink='projects'>projects</button>
-    <!-- <button mat-button>blog</button> -->
-    <button mat-button routerLink='contact'>contact</button>
+    <div id="buttons">
+        <button mat-button routerLink='about'>about</button>
+        <button mat-button routerLink='projects'>projects</button>
+        <!-- <button mat-button>blog</button> -->
+        <button mat-button routerLink='contact'>contact</button>
+    </div>
+
+    <button id="bg" mat-icon-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
+    <mat-menu id="mmenu" #menu="matMenu">
+        <button class="bgb" mat-menu-item routerLink='about'>about</button>
+        <button class="bgb" mat-menu-item routerLink='projects'>projects</button>
+        <!-- <button mat-button>blog</button> -->
+        <button class="bgb" mat-menu-item routerLink='contact'>contact</button>
+    </mat-menu>
 </div>
 <div id="page">
     <router-outlet></router-outlet>

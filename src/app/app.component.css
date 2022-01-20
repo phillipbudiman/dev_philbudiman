@@ -28,3 +28,29 @@
     font-family: 'SF Pro Ultralight', 'Helvetica Neue', sans-serif;
     margin: 2em;
 }
+
+#buttons {
+    display: initial;
+}
+
+#bg {
+    display: none;
+}
+
+.bgb {
+    font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+
+#mmenu {
+    /* size: 15em; */
+}
+
+@media all and (max-width: 480px) {
+    #buttons {
+        display: none;
+    }
+    #bg {
+        display: initial;
+    }
+}
