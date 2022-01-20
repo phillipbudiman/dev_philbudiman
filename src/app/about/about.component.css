@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100em;
+    width: auto;
 }
 
 #pic {
@@ -12,7 +12,7 @@
 
 #pic img {
     /* min-width: 0; */
-    width: 20vw;
+    max-width: 20em;
     border-radius: 5px;
 }
 
@@ -29,8 +29,22 @@ a {
 }
 
 .text {
-    width: 50em;
+    width: 60vw;
     font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
     text-align: center;
     word-wrap: normal;
+}
+
+@media all and (max-width: 480px) {
+    #pic img {
+        /* min-width: 0; */
+        max-width: 15em;
+        border-radius: 5px;
+    }
+    .text {
+        width: 80vw;
+        font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        word-wrap: normal;
+    }
 }
