@@ -17,6 +17,7 @@ form {
 }
 
 #thanks {
-    /* font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif; */
+    width: 70vw;
+    text-align: center;
     font-size: 1.1rem;
 }
