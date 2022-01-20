@@ -30,6 +30,7 @@ a {
 
 .text {
     width: 60vw;
+    max-width: 820px;
     font-family: 'SF Pro Light', 'Helvetica Neue', sans-serif;
     text-align: center;
     word-wrap: normal;
